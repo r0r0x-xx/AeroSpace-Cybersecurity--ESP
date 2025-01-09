@@ -2,7 +2,7 @@
 
 # Una introduccion de ciberseguridad aeroespacial, los satélites y temas relacionados.
 
-Hola compas, durante los últimos tres años, he estado aprendiendo de forma autodidacta en tecnología aeroespacial y he dedicado mucho tiempo a investigar este campo con enfoque a ciberseguridad ofensiva (area de mi especialización). Este repositorio es una recopilación de ideas, notas e información que he reunido durante este viaje. He organizado el material de una manera clara y coherente (¡espero que así sea! XD), comenzando con la tecnología satelital, seguido por la seguridad aeroespacial general y, finalmente, explorando cómo hackear satélites (esto se detallará en futuras publicaciones con laboratorios satelitales caseros). ¡Espero que este recurso les resulte útil para mejorar su comprensión y conocimiento de este fascinante campo! :)
+Hola compas, durante los últimos 2 años, he estado aprendiendo de forma autodidacta en tecnología aeroespacial y he dedicado mucho tiempo a investigar este campo con enfoque a ciberseguridad ofensiva (area de mi especialización). Este repositorio es una recopilación de ideas, notas e información que he reunido durante este viaje. He organizado el material de una manera clara y coherente (¡espero que así sea! XD), comenzando con la tecnología satelital, seguido por la seguridad aeroespacial general y, finalmente, explorando cómo hackear satélites (esto se detallará en futuras publicaciones con laboratorios satelitales caseros). ¡Espero que este recurso les resulte útil para mejorar su comprensión y conocimiento de este fascinante campo! :)
 
 Este proyecto está destinado únicamente a fines educativos. El autor no es responsable de ningún mal uso o daños causados por este contenido. Asegúrese siempre de tener la autorización adecuada antes de realizar cualquier prueba de seguridad.
 
@@ -29,11 +29,11 @@ La ciberseguridad aeroespacial es fundamental para proteger la integridad de las
 
 ## Órbitas y tecnologías de los satélites
 
-Los satélites son objetos que orbitan alrededor de un planeta u otros cuerpos celestes. Pueden ser naturales, como las lunas, o artificiales, que son dispositivos creados por el hombre y lanzados al espacio con diversos fines. Los satélites artificiales cumplen muchas funciones, entre ellas la comunicación, el control del clima, la navegación, la investigación científica y la observación de la Tierra.
+Los satélites son objetos que orbitan alrededor de un planeta u otros cuerpos celestes. Pueden ser naturales, como las lunas o artificiales que son dispositivos creados por el hombre y lanzados al espacio con diversos fines. Los satélites artificiales cumplen muchas funciones, entre ellas la comunicación, el control del clima, la navegación, la investigación científica y la observación de la Tierra.
 
-Las órbitas de los satélites describen las trayectorias que recorren los satélites alrededor de cuerpos celestes como la Tierra. Estas trayectorias están determinadas por la interacción entre la fuerza gravitacional del planeta y la velocidad del satélite. Las órbitas son clave para determinar el propósito de un satélite, su área de cobertura y cuánto tiempo puede funcionar. Técnicamente, las órbitas se caracterizan por la altitud, la inclinación, la excentricidad y el tiempo que tarda en completar una revolución completa.
+Las órbitas de los satélites describen las trayectorias que recorren los satélites alrededor de cuerpos celestes como la Tierra. Estas trayectorias están determinadas por la interacción entre la fuerza gravitacional del planeta y la velocidad del satélite. Las órbitas son clave para determinar el propósito de un satélite, su área de cobertura y cuánto tiempo puede funcionar. Técnicamente las órbitas se caracterizan por la altitud, la inclinación y el tiempo que tarda en completar una vuelta al planeta completa.
 
-## Tipos de órbitas utilizadas en las comunicaciones por satélite
+## Tipos de órbitas utilizadas por satélite
 
 **LEO - Órbita baja terrestre**
 
@@ -47,17 +47,17 @@ Las órbitas de los satélites describen las trayectorias que recorren los saté
     - Satélites de observación de la Tierra: Incluyen misiones científicas que monitorean el cambio climático, las actividades agrícolas y los desastres naturales.
     - Satélites espía: Utilizados por agencias gubernamentales debido a su alta resolución de imagen desde bajas altitudes.
 - **Limitaciones en esta órbita**:
-    - Necesidad de grandes constelaciones para una cobertura continua.
-    - Mayor riesgo de colisiones debido a la densidad de objetos en esta región.
+    - Necesidad de grandes constelaciones de satelites para una cobertura continua.
+    - Mayor riesgo a choques debido a la densidad de objetos en esta región.
 
 **MEO - Órbita media terrestre**
 
-- **Elevación del satélite**: Entre 2.000 km y 35.786 km.
+- ***Elevación de los satélites**: Entre 2.000 km y 35.786 km.
 - **Características principales**:
     - Dependiendo de la altitud, un período orbital de 2 a 12 horas ofrece una estabilidad orbital mayor en comparación con LEO.
     - Menor interferencia atmosférica, lo que extiende la vida útil del satélite y reduce la necesidad de maniobras frecuentes.
     - Cobertura regional mejorada debido al mayor rango de visibilidad.
-- **Funciones clave**:
+- **Funciones clave de esta órbita**:
     - Sistemas de navegación: GPS, Galileo, GLONASS y BeiDou. Los satélites en MEO ofrecen señales consistentes y precisas para el posicionamiento global.
     - Satélites científicos: Diseñados para misiones de monitoreo a largo plazo, como el análisis de los campos magnéticos de la Tierra.
 - **Limitaciones en esta órbita**:
@@ -66,12 +66,12 @@ Las órbitas de los satélites describen las trayectorias que recorren los saté
 
 **GEO - Órbita terrestre geoestacionaria**
 
-- **Elevación del satélite**: 35.786 km sobre el ecuador terrestre.
+- **Elevación de los satélites**: 35.786 km sobre el ecuador terrestre.
 - **Características principales**:
     - Los satélites se posicionan con una velocidad angular que se sincroniza con la rotación de la Tierra, permitiendo mantener una posición fija en el cielo.
     - Proporcionan una cobertura continua de un tercio del globo, ideal para la transmisión televisiva y los servicios meteorológicos.
     - La densidad de satélites en esta órbita es menor que en la órbita terrestre baja (LEO), reduciendo el riesgo de colisiones.
-- **Funciones clave**:
+- **Funciones clave de esta órbita**:
     - Telecomunicaciones globales: Incluye satélites como Intelsat y SES.
     - Monitoreo meteorológico: Satélites como GOES proporcionan datos esenciales para predicciones meteorológicas en tiempo real.
     - Sistemas de alerta temprana: Cruciales para detectar fenómenos naturales como huracanes y terremotos.
@@ -84,10 +84,10 @@ Las órbitas de los satélites describen las trayectorias que recorren los saté
 - **Características principales**:
     - Las órbitas con un perigeo bajo (300-1000 km) y un apogeo alto (superior a 35.786 km) permiten períodos prolongados en la región del apogeo.
     - Un ángulo de inclinación alto hace que estas órbitas sean ideales para proporcionar cobertura en regiones polares o de alta latitud.
-    - Mayor exposición a la radiación espacial en el apogeo, lo que requiere sistemas robustos para proteger los componentes electrónicos.
-- **Funciones clave**:
+    - Mayor exposición a la radiación espacial, lo que requiere sistemas robustos para proteger los componentes electrónicos.
+- **Funciones clave de esta órbita**:
     - Monitoreo polar: Utilizado por satélites meteorológicos y científicos para observar las regiones polares.
-    - Telescopios espaciales: Beneficiados por la larga duración del apogeo, permitiendo observaciones continuas.
+    - Telescopios espaciales: Beneficiados por la larga duración, permitiendo observaciones continuas.
     - Comunicación militar: Ofrece servicios de comunicación estables en regiones inaccesibles para satélites de órbita baja (LEO) o geoestacionarios (GEO).
 - **Limitaciones en esta órbita**:
     - Trayectoria compleja que requiere control preciso para la estabilidad orbital.
@@ -96,7 +96,7 @@ Las órbitas de los satélites describen las trayectorias que recorren los saté
   ## Tipos de satélites, categorías y servicios
 
 Esta sección destaca los principales tipos de satélites, sus funciones, propósitos y ejemplos, clasificados según sus aplicaciones específicas y los servicios que brindan a las industrias, gobiernos y usuarios cotidianos.
-
++
 **Satélites de comunicación**
 
 - **Objetivos**:
@@ -285,8 +285,8 @@ La recopilación, transmisión y procesamiento de datos son funciones cruciales 
 
 Las estaciones terrestres dependen de sistemas de antenas avanzados para establecer y mantener enlaces de comunicación confiables con los satélites. La selección de una antena se basa en la órbita del satélite, la banda de frecuencia utilizada y los requisitos específicos de la misión.
 
-- **Antenas de reflector parabólico**: Enfocan ondas de radio hacia un receptor, siendo altamente direccionales. Usadas en satélites de comunicación, radiodifusión y observación terrestre.
-- **Antenas de matriz en fase**: Pueden dirigir electrónicamente la dirección del haz sin necesidad de movimiento físico. Comúnmente empleadas en satélites LEO, como Starlink.
+- **Antenas parabólicas**: Enfocan ondas de radio hacia un receptor, siendo altamente direccionales. Usadas en satélites de comunicación, radiodifusión y observación terrestre.
+- **Antenas de matriz**: Pueden dirigir electrónicamente la dirección del haz sin necesidad de movimiento físico. Comúnmente empleadas en satélites LEO, como Starlink.
 - **Antenas helicoidales**: Diseñadas para polarización circular, ideales para comunicación en bandas S y L, como en la constelación Iridium.
 - **Antenas planas (patch antennas)**: Ofrecen cobertura de amplio ángulo y son comunes en pequeños satélites y CubeSats.
 - **Antenas de bocina**: Con alta ganancia y capacidades direccionales, son usadas en frecuencias altas para comunicación intersatelital y misiones científicas.
@@ -302,13 +302,11 @@ La ciberseguridad en tecnología aeroespacial, con énfasis en satélites, puede
 Incluye los dispositivos y sistemas empleados por los usuarios finales para interactuar con redes satelitales. Este segmento es vulnerable, ya que sirve como interfaz entre los usuarios y la red satelital.
 
 **Componentes clave**:
-
 - **Terminales terrestres**: Estaciones fijas o móviles que transmiten y reciben señales satelitales.
 - **Equipos de usuario**: Teléfonos satelitales, sensores IoT, dispositivos con GPS y módems satelitales.
 - **Sistemas de procesamiento de datos**: Equipos y software usados para interpretar datos satelitales.
 
 **Vectores de ataque**:
-
 - Acceso no autorizado a terminales terrestres debido a autenticación débil o firmware obsoleto.
 - Explotación de vulnerabilidades en dispositivos como teléfonos satelitales o sensores IoT.
 - Intercepción o suplantación de señales de comunicación.
@@ -327,19 +325,16 @@ Incluye los dispositivos y sistemas empleados por los usuarios finales para inte
 Se refiere a las vías de comunicación entre satélites, estaciones terrestres y dispositivos de usuario, usando enlaces de radiofrecuencia (RF). Dividido en:
 
 **Componentes clave**:
-
 - **Enlace ascendente (uplink)**: Comunicación de estaciones terrestres al satélite.
 - **Enlace descendente (downlink)**: Comunicación del satélite a las estaciones terrestres.
 
 **Vectores de ataque**:
-
 - **Interferencias**: Señales RF de alta potencia para interrumpir comunicaciones.
 - **Escucha clandestina**: Captura de señales no encriptadas.
 - **Suplantación de señales**: Réplicas maliciosas para alterar datos o comandos.
 - **Ataques de repetición**: Reenvío de señales legítimas capturadas.
 
 **Desafíos en la seguridad de enlaces RF**:
-
 - Apertura inherente de las señales RF.
 - Restricciones de ancho de banda.
 - Sistemas heredados sin características de seguridad modernas.
@@ -349,13 +344,11 @@ Se refiere a las vías de comunicación entre satélites, estaciones terrestres 
 Incluye las instalaciones terrestres responsables de la operación satelital, siendo un objetivo de alto valor.
 
 **Componentes clave**:
-
 - Centros de control de la misión.
 - Estaciones terrestres para telemetría y control.
 - Centros de procesamiento de datos.
 
 **Vectores de ataque**:
-
 - Compromiso de centros de control para alterar operaciones.
 - Ataques DoS en redes terrestres.
 - Explotación de vulnerabilidades en estaciones terrestres.
@@ -396,8 +389,6 @@ A continuación, se detallan algunas de las técnicas más utilizadas en ciberse
     - **Hardware**: USRP (Universal Software Radio Peripheral), amplificadores RF de alta potencia.
     - **Software**: GNURadio, SigGen.
     - **Antenas**: Antenas direccionales de alta ganancia.
-
----
 
 ### **Suplantación e inyección de señales**
 
@@ -476,7 +467,6 @@ Comunidades
 - https://dc506.org/
 - https://www.hackspacecon.com/HackSpaceCon
 - https://www.aerospacevillage.org/
-- 
 
 Herramientas y proyectos:
 
