@@ -52,7 +52,7 @@ Las órbitas de los satélites describen las trayectorias que recorren los saté
 
 **MEO - Órbita media terrestre**
 
-- ***Elevación de los satélites**: Entre 2.000 km y 35.786 km.
+- **Elevación de los satélites**: Entre 2.000 km y 35.786 km.
 - **Características principales**:
     - Dependiendo de la altitud, un período orbital de 2 a 12 horas ofrece una estabilidad orbital mayor en comparación con LEO.
     - Menor interferencia atmosférica, lo que extiende la vida útil del satélite y reduce la necesidad de maniobras frecuentes.
@@ -95,7 +95,7 @@ Las órbitas de los satélites describen las trayectorias que recorren los saté
  
   ## Tipos de satélites, categorías y servicios
 
-Esta sección destaca los principales tipos de satélites, sus funciones, propósitos y ejemplos, clasificados según sus aplicaciones específicas y los servicios que brindan a las industrias, gobiernos y usuarios cotidianos.
+En esta sección se destaca los principales tipos de satélites, sus funciones, propósitos y ejemplos, clasificados según sus aplicaciones específicas y los servicios que brindan a las industrias, gobiernos y usuarios cotidianos.
 +
 **Satélites de comunicación**
 
@@ -138,7 +138,7 @@ Esta sección destaca los principales tipos de satélites, sus funciones, propó
     - Constellaciones distribuidas en MEO, garantizando cobertura global con múltiples satélites visibles.
     - Transmisión de señales en bandas L1, L2 y L5 para reducir interferencias y mejorar la precisión.
 
-**Satélites científicos**
+**Satélites de usos científicos**
 
 - **Objetivos**:
     - Diseñados para estudios astronómicos, análisis climático y exploración de fenómenos físicos en el espacio.
@@ -164,10 +164,10 @@ Esta sección destaca los principales tipos de satélites, sus funciones, propó
     - Equipados con sistemas avanzados de radar y monitoreo multiespectral.
     - Maniobras orbitales frecuentes para evitar detección o rastreo.
 
-**Nanosatélites y CubeSats**
+**Nanosatélites y cubeSats**
 
 - **Aspectos técnicos**:
-    - Nanosatélites con masa menor a 10 kg diseñados para ser compactos y eficientes; CubeSats son un tipo específico de nanosatélite construido en unidades modulares de 10x10x10 cm (llamadas 1U).
+    - Nanosatélites con masa menor a 10 kg diseñados para ser compactos y eficientes; CubeSats son un tipo específico de nanosatélite construido en unidades modulares de 10x10x10 cm ( 1U).
     - Arquitectura modular permite configuraciones escalables, adaptándose a diversas aplicaciones científicas, educativas y comerciales.
     - Costos reducidos: Uso de componentes comerciales estándar (COTS) para minimizar el costo de fabricación y lanzamiento.
     - Flexibilidad: Ideales para experimentos de corta duración en órbita baja (LEO) o pruebas de nuevas tecnologías.
@@ -195,8 +195,7 @@ Esta sección destaca los principales tipos de satélites, sus funciones, propó
     - Altos costos de desarrollo y lanzamiento.
     - Requisitos estrictos de seguridad y protección de datos para prevenir intercepciones o sabotajes.
  
-
-  ## Componentes clave del hardware de los satélites
+## Componentes clave del hardware de los satélites
 
 El hardware de los satélites abarca los sistemas físicos necesarios para su operación, asegurando su funcionalidad y éxito en la misión.
 
@@ -263,7 +262,6 @@ La comunicación satelital se refiere a la transferencia de datos entre satélit
 - **DVB-RCS**: Facilita comunicación bidireccional a través de satélites para servicios interactivos.
 - **IPoS**: Protocolo para transmitir datos basados en IP sobre enlaces satelitales en bandas L, Ku y Ka.
 
-
 ## Tipos y formatos de datos enviados o utilizados por satélites
 
 La recopilación, transmisión y procesamiento de datos son funciones cruciales en los sistemas satelitales, apoyando aplicaciones científicas, comerciales y de defensa. Los niveles y formatos de procesamiento están diseñados para mejorar la eficiencia, precisión y compatibilidad con varios sistemas de análisis y usuarios finales.
@@ -294,7 +292,6 @@ Las estaciones terrestres dependen de sistemas de antenas avanzados para estable
 ## Introducción a la ciberseguridad en tecnología satelital
 
 La intersección entre la tecnología satelital y la ciberseguridad es un área crítica, especialmente a medida que los sistemas satelitales se vuelven esenciales para comunicaciones globales, navegación y observación terrestre. La creciente sofisticación de los ciberataques dirigidos a sistemas espaciales exige una seguridad reforzada. La complejidad de las infraestructuras satelitales requiere comprender los puntos de ataque y las amenazas potenciales.
-
 La ciberseguridad en tecnología aeroespacial, con énfasis en satélites, puede dividirse en cuatro segmentos clave:
 
 ### Segmento de usuario: terminales y dispositivos de usuario
